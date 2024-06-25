@@ -1,4 +1,4 @@
-FROM nodered/node-red:3.0.2
+FROM nodered/node-red:4.0.0
 
 USER root
 RUN apk update && apk add ffmpeg
