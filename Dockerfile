@@ -1,6 +1,6 @@
 FROM nodered/node-red:4.0-debian
 
 USER root
-RUN apk update && apk add ffmpeg
+RUN apt update && apt add ffmpeg
 
 USER node-red
